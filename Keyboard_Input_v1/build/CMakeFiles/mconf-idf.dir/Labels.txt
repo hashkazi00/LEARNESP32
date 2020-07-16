@@ -1,0 +1,13 @@
+# Target labels
+ mconf-idf
+# Source files and their labels
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/CMakeFiles/mconf-idf
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/CMakeFiles/mconf-idf.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/CMakeFiles/mconf-idf-complete.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-install.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-mkdir.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-download.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-update.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-patch.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-configure.rule
+/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/mconf-idf-prefix/src/mconf-idf-stamp/mconf-idf-build.rule

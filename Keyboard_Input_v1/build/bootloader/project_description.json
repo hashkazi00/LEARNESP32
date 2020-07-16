@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/hashkazi/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/build/bootloader",
+    "config_file":        "/Users/hashkazi/Desktop/LEARNESP32/Keyboard_Input_v1/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.0",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/hashkazi/esp/esp-idf/components/efuse/Kconfig;/Users/hashkazi/esp/esp-idf/components/esp32/Kconfig;/Users/hashkazi/esp/esp-idf/components/esp_common/Kconfig;/Users/hashkazi/esp/esp-idf/components/log/Kconfig;/Users/hashkazi/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/hashkazi/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/hashkazi/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/hashkazi/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/hashkazi/esp/esp-idf/components/bootloader", "/Users/hashkazi/esp/esp-idf/components/bootloader_support", "/Users/hashkazi/esp/esp-idf/components/efuse", "/Users/hashkazi/esp/esp-idf/components/esp32", "/Users/hashkazi/esp/esp-idf/components/esp_common", "/Users/hashkazi/esp/esp-idf/components/esp_rom", "/Users/hashkazi/esp/esp-idf/components/esptool_py", "/Users/hashkazi/esp/esp-idf/components/log", "/Users/hashkazi/esp/esp-idf/components/bootloader/subproject/main", "/Users/hashkazi/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/hashkazi/esp/esp-idf/components/partition_table", "/Users/hashkazi/esp/esp-idf/components/soc", "/Users/hashkazi/esp/esp-idf/components/spi_flash", "/Users/hashkazi/esp/esp-idf/components/xtensa", "" ]
+}
