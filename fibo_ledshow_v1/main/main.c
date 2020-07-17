@@ -17,21 +17,40 @@ void app_main(void)
 {
   gpio_pad_select_gpio(PIN);
   gpio_set_direction(PIN, GPIO_MODE_OUTPUT);
-  int isOn = 0;
-  int c, n;
-  while (1)
+  char c = 0;
+  while (c != '\n')
   {
-    printf("started\n");
-    c = 10;
-    n = fib(c);
-    for (int i = 0; i <= n; ++i)
+    c = getchar();
+    if (c != 0xff)
     {
-      isOn = !isOn;
-      gpio_set_level(PIN, isOn);
-      vTaskDelay(1000 / portTICK_PERIOD_MS);
-      printf("%d\n", i);
+      // str[strlen(str)] = c;
+      printf("%c", c);
     }
-    printf("Done\n");
+    vTaskDelay(100 / portTICK_PERIOD_MS);
+  }
+
+  int n = (int)c;
+
+  int isOn = 0;
+
+  for (int i = 1; i <= n; i++)
+  {
+    printf("%d\n", i);
+
+    int k = fib(i);
+
+    printf("%d\n", k);
+
+    for (int j = 0; j < k; j++)
+    {
+      printf("%d\n", j);
+      isOn = 1;
+      gpio_set_level(PIN, isOn);
+      vTaskDelay(500 / portTICK_PERIOD_MS);
+
+      gpio_set_level(PIN, 0);
+    }
+
     vTaskDelay(5000 / portTICK_PERIOD_MS);
   }
 }
